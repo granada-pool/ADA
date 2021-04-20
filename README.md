@@ -1,7 +1,7 @@
-# ADA-Stacking
-Cardano ADA Stacking Pool
+# ADA-Staking
+Cardano ADA Staking Pool
 
-A truly decentralized stacking pool with a hybrid solution implementing a block producer node in a basement server and the relay nodes on a data center. 
+A truly decentralized staking pool with a hybrid solution implementing a block producer node in a basement server and the relay nodes on a data center. 
 
 Hosted in Switzerland and operated by a cool vegan software engineer. 
 
