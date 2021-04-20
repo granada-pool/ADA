@@ -1,6 +1,8 @@
 # ADA-Stacking
 Cardano ADA Stacking Pool
 
-A truly decentralized stacking pool operated by a cool vegan dude.
+A truly decentralized stacking pool with a hybrid solution implementing a block producer node in a basement server and the relay nodes on a data center. 
 
-Block-Producer Node hosted in Germany and Relay nodes hosted in Switzerland.
+Hosted in Switzerland and operated by a cool vegan software engineer. 
+
+Thank you for your trust and for joining the blockchain revolution!
