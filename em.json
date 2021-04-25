@@ -1,0 +1,57 @@
+{
+    "info": {
+        "url_png_icon_64x64": "http(s) url to pool icon; not animated; max 40kb",
+        "url_png_logo": "http(s) url to pool logo; not animated; max 50kb",
+        "location": "Zurich, Switzerland",
+        "social": {
+            "twitter_handle": "",
+            "telegram_handle": "https://t.me/granada_staking_pool",
+            "facebook_handle": "",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": "https://github.com/granada-pool/ADA"
+        },
+        "company": {
+            "name": "",
+            "addr": "",
+            "city": "",
+            "country": "",
+            "company_id": "",
+            "vat_id": ""
+        },
+        "about": {
+            "me": "I'm a young software engineer that believes that we can use the power of blockchain and decentralization to change the world forever",
+            "server": "Hosted at my home in Switzerland | Internet: 1GB up/down | Powered with renewable energy.",
+            "company": ""
+        }
+    },
+    "my-pool-ids": {
+        "0": "7a4c1ee9d663dd8d3b1bedf13155cc624c5dfa95f432c30d198cd3c6"
+    },
+    "when-satured-then-recommend": {
+        "0": ""
+    },
+    "telegram-admin-handle": {
+        "0": ""
+    },
+    "adapools_ext": {
+        "prometheus": {
+            "0": {
+                "name": "relay 1 CH",
+                "type": "relay",
+                "key": ""
+            },
+            "1": {
+                "name": "relay 2 CH backup",
+                "type": "relay",
+                "key": ""
+            },
+            "2": {
+                "name": "block producer DE",
+                "type": "bp",
+                "key": ""
+            }
+        }
+    }
+}
