@@ -1,7 +1,7 @@
 {
     "info": {
-        "url_png_icon_64x64": "http(s) url to pool icon; not animated; max 40kb",
-        "url_png_logo": "http(s) url to pool logo; not animated; max 50kb",
+        "url_png_icon_64x64": "https://raw.githubusercontent.com/granada-pool/ADA/main/l_64.png",
+        "url_png_logo": "https://raw.githubusercontent.com/granada-pool/ADA/main/l.png",
         "location": "Zurich, Switzerland",
         "social": {
             "twitter_handle": "",
