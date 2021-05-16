@@ -4,7 +4,7 @@
         "url_png_logo": "https://raw.githubusercontent.com/granada-pool/ADA/main/l.png",
         "location": "Zurich, Switzerland",
         "social": {
-            "twitter_handle": "",
+            "twitter_handle": "GranAdaSwiss",
             "telegram_handle": "granada_staking_pool",
             "facebook_handle": "",
             "youtube_handle": "",
@@ -21,8 +21,8 @@
             "vat_id": ""
         },
         "about": {
-            "me": "I'm a young software engineer who believes that we can use the power of blockchain and decentralization to change the world forever",
-            "server": "Hosted at my home in Switzerland | Internet: 1GB up/down | Powered with renewable energy.",
+            "me": "I'm a young software engineer who firmly believes that we can use the power of blockchain and decentralization to change the world forever.",
+            "server": "Hosted at my home in Switzerland | Internet: 1GB up/down | Powered with 100% renewable energy.",
             "company": ""
         }
     },
