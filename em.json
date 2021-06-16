@@ -43,7 +43,7 @@
                 "key": ""
             },
             "1": {
-                "name": "relay 2 CH backup",
+                "name": "relay 2 DE (backup)",
                 "type": "relay",
                 "key": ""
             },
