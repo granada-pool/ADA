@@ -1,7 +1,7 @@
 # ADA-Staking
 Cardano (ADA) Staking Pool
 
-A truly decentralized staking pool with a hybrid solution implementing a block producer and a backup relay on a data center and relay node in a basement server (powered with renewable energy). 
+A truly decentralized staking pool with a hybrid solution implementing a block producer and a backup relay on a data center and a main relay node in a basement server (powered with renewable energy). 
 
 Hosted in Switzerland and Germany and operated by a cool vegan software engineer. 
 
