@@ -1,8 +1,8 @@
 {
   "name": "GranADA_Staking_Pool",
   "ticker": "GRANA",
-  "description": "A truly decentralized staking pool with a hybrid node implementation (data center and private server). Hosted in Switzerland and operated by a cool vegan software engineer. Thank you for your trust and for joining the blockchain revolution!",
-  "homepage": "https://github.com/granada-pool",
+  "description": "A truly decentralized staking pool with a hybrid node implementation (data center/private server). Hosted in Switzerland and operated by a cool vegan software engineer. We monthly contribute to the WFP to help refugee families. Thank you for delegating kindness!",
+  "homepage": "https://granada-pool.github.io/",
   "nonce": "1618919658",
   "extended": "https://raw.githubusercontent.com/granada-pool/ADA/main/em.json"
 }
