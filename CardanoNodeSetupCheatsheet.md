@@ -84,6 +84,7 @@ granada.staking.pool@gmail.com
 
 [General setup guide](https://github.com/Chris-Graffagnino/Jormungandr-for-Newbs/blob/master/docs/jormungandr_node_setup_guide.md) [MASTR]
 
+
 ## First steps
 
 •	Create Droplet on data center or install Ubuntu on private server (16 GB RAM for v1.29.0)
@@ -94,24 +95,20 @@ granada.staking.pool@gmail.com
 
 `Note: Remember to change all [fields in square brackets]`
 
+
 ## Creating a non-root user
 ```html
 sudo adduser [username]
-
 sudo adduser [username] sudo
-
 sudo su - [username]
-
 mkdir ~/.ssh
-
 cd .ssh
 ```
 
 (Login with PuTTY as new user with new SSH key)
 
-```html
-nano ~/.ssh/authorized_keys 
-```
+`nano ~/.ssh/authorized_keys`
+
 (Paste SSH public key -> version displayed by PuTTY keygen)
 
 
@@ -127,7 +124,6 @@ sudo apt-get upgrade
 >	uncomment port and add number & “PermitRootLogin no” “PasswordAuthentication no”
 ```html
 sudo systemctl restart ssh
-
 sudo systemctl status ssh 
 ```
 > test that login in with root is no longer possible. Add firewall rules for droplets
@@ -181,7 +177,6 @@ We will assume that we will create a new partition volume in dev/sdb1 (external 
 #This will wipe out all the data in your USB stick and will write the LVM header to the partition. Just make sure this device doesn’t have any important data and answer “y” to all prompts
 sudo pvcreate /dev/sdb1
 
-
 #Create volume group
 sudo vgcreate [vg name] /dev/sdb1
 
@@ -198,7 +193,6 @@ sudo lvconvert --merge [vg name]/[snapshot name]
 Other useful commands
 
 ```html
-
 #Resizing partitions
 sudo lvextend -L +5g [vg name]/[lv name]
 
@@ -210,7 +204,6 @@ sudo pvmove -n [lv name] /dev/sdb1
 
 #Remove logical volume
 sudo lvremove [vg name]/[lv name]
-
 ```
 
 ## Creating firewall
@@ -237,6 +230,8 @@ sudo ufw enable
 sudo systemctl restart ssh
 sudo ufw status 
 ```
+
+
 ## Disable Wifi and Bluetooth (Hardware server)
 
 ```html
@@ -245,12 +240,14 @@ systemctl disable bluetooth.service
 nmcli radio wifi off
 ```
 
+
 ## Disable sleep, hibernation and ping command
 
 ```html
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 sudo sysctl -w net.ipv4.icmp_echo_ignore_all=1
 ```
+
 ## Configure SWAP for RAM
 
 ```html
@@ -291,12 +288,12 @@ sudo swapon -a
 # Verify swap is enabled
 free -h
 ```
+
 ## Security (Google 2FA & Fail2Ban)
 
 ```html
 # Checks logs for ssh logins
 sudo journalctl -u ssh 
-
 
 # Checks logs for ssh logins with more details
 sudo journalctl -eu ssh
@@ -333,6 +330,7 @@ sudo iptables -L | grep f2b
 cd /etc/fail2ban
 sudo nano jail.conf
 ```
+
 ## Synchronisation (Chrony)
 
 ```html
@@ -362,6 +360,7 @@ local stratum 10
 ```
 `sudo systemctl restart chrony`
 
+
 ## Installing Prereqs
 ```html
 mkdir "$HOME/tmp"
@@ -372,6 +371,8 @@ chmod 755 prereqs.sh
 ./prereqs.sh -f
 . "${HOME}/.bashrc"
 ```
+
+
 ## Installing cardano-node and cardano-cli
 ```html
 cd ~/git
@@ -387,6 +388,8 @@ $CNODE_HOME/scripts/cabal-build-all.sh -o
 cardano-cli version
 cardano-node version
 ```
+
+
 ## Get mainnet-alonzo-genesis.json file
 
 ```html
@@ -400,9 +403,10 @@ nano config.json
 >Include (on the top):
 ```html
 "AlonzoGenesisFile": "/opt/cardano/cnode/files/alonzo-genesis.json",
-"AlonzoGenesisHash": "7e94a15f55d1e82d10f09203fa1d40f8eede58fd8066542cf6566008068ed874"
+"AlonzoGenesisHash": "7e94a15f55d1e82d10f09203fa1d40f8eede58fd8066542cf6566008068ed874",
 ```
 `sudo systemctl restart cnode`
+
 
 ## Configuring CNODE script to use all available CPU cores (reduces missing slots)
 ```html
@@ -414,6 +418,7 @@ sudo nano cnode.sh
 #save changes and restart node (this avoids missing slots)
 ```
 >Having a BP on a bare metal dedicated server and turning off the TraceMempool property on the config.json file also helps to avoid this issue
+
 
 ## Configuring Env and Starting Node
 
@@ -439,6 +444,7 @@ sudo systemctl status cnode.service
 ./gLiveView.sh #OR ./sLiveView.sh
 ```
 
+
 ## Editing topologyUpdater.sh For Relays
 
 ```html
@@ -456,6 +462,7 @@ Press Y to save modified buffer
 Press Enter to keep file name
 
 `sudo systemctl restart cnode.service`
+
 
 ## Editing topology.json for Producer
 ```html
@@ -487,9 +494,11 @@ Press Enter to keep file name
 
 `sudo systemctl restart cnode.service`
 
+
 ## Creating wallet/Registering pool
 
 `./cntools.sh`
+
 
 ##	Monitoring (Grafana)
 
@@ -548,6 +557,8 @@ sudo systemctl restart Prometheus
 sudo systemctl status prometheus
 sudo systemctl restart node_exporter.service
 ```
+
+
 ## Miscellaneous commands
 *Check for missing slots*
 `curl localhost:12798/metrics | grep "cardano_node_metrics_slotsMissedNum_int"`
