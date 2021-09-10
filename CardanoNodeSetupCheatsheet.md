@@ -2,7 +2,7 @@
 <snippet>
   <content><![CDATA[
   
-<img src="https://github.com/granada-pool/ADA/blob/main/l.png" width="200"> By GranADA_Staking_Pool [GRANA]
+<img src="https://github.com/granada-pool/ADA/blob/main/l.png" width="200"> By [GranADA_Staking_Pool [GRANA]](https://pooltool.io/pool/7a4c1ee9d663dd8d3b1bedf13155cc624c5dfa95f432c30d198cd3c6/epochs)
 
 # Setup Cheatshet for Cardano nodes
 
