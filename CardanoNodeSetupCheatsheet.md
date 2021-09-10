@@ -98,6 +98,7 @@ granada.staking.pool@gmail.com
 
 [<img src="https://github.com/granada-pool/ADA/blob/main/l_64.png" width="30">](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
 
+
 ## Creating a non-root user
 ```html
 sudo adduser [username]
@@ -115,6 +116,7 @@ cd .ssh
 
 [<img src="https://github.com/granada-pool/ADA/blob/main/l_64.png" width="30">](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
 
+
 ## Update Ubuntu
 ```html
 sudo apt-get update
@@ -122,6 +124,7 @@ sudo apt-get upgrade
 ```
 
 [<img src="https://github.com/granada-pool/ADA/blob/main/l_64.png" width="30">](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
+
 
 ## Disable Root Login/Set New SSH Port
 
@@ -134,6 +137,7 @@ sudo systemctl status ssh
 > test that login in with root is no longer possible. Add firewall rules for droplets
 
 [<img src="https://github.com/granada-pool/ADA/blob/main/l_64.png" width="30">](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
+
 
 ## Server backups (snapshot in private server)
 
@@ -212,7 +216,9 @@ sudo pvmove -n [lv name] /dev/sdb1
 #Remove logical volume
 sudo lvremove [vg name]/[lv name]
 ```
+
 [<img src="https://github.com/granada-pool/ADA/blob/main/l_64.png" width="30">](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
+
 
 ## Creating firewall
 
@@ -238,7 +244,9 @@ sudo ufw enable
 sudo systemctl restart ssh
 sudo ufw status 
 ```
+
 [<img src="https://github.com/granada-pool/ADA/blob/main/l_64.png" width="30">](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
+
 
 ## Disable Wifi and Bluetooth (Hardware server)
 
@@ -247,7 +255,9 @@ systemctl stop bluetooth
 systemctl disable bluetooth.service
 nmcli radio wifi off
 ```
+
 [<img src="https://github.com/granada-pool/ADA/blob/main/l_64.png" width="30">](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
+
 
 ## Disable sleep, hibernation and ping command
 
@@ -340,7 +350,9 @@ sudo iptables -L | grep f2b
 cd /etc/fail2ban
 sudo nano jail.conf
 ```
+
 [<img src="https://github.com/granada-pool/ADA/blob/main/l_64.png" width="30">](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
+
 
 ## Synchronisation (Chrony)
 
@@ -373,6 +385,7 @@ local stratum 10
 
 [<img src="https://github.com/granada-pool/ADA/blob/main/l_64.png" width="30">](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
 
+
 ## Installing Prereqs
 ```html
 mkdir "$HOME/tmp"
@@ -383,7 +396,9 @@ chmod 755 prereqs.sh
 ./prereqs.sh -f
 . "${HOME}/.bashrc"
 ```
+
 [<img src="https://github.com/granada-pool/ADA/blob/main/l_64.png" width="30">](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
+
 
 ## Installing cardano-node and cardano-cli
 ```html
@@ -400,7 +415,9 @@ $CNODE_HOME/scripts/cabal-build-all.sh -o
 cardano-cli version
 cardano-node version
 ```
+
 [<img src="https://github.com/granada-pool/ADA/blob/main/l_64.png" width="30">](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
+
 
 ## Get mainnet-alonzo-genesis.json file
 
@@ -418,7 +435,9 @@ nano config.json
 "AlonzoGenesisHash": "7e94a15f55d1e82d10f09203fa1d40f8eede58fd8066542cf6566008068ed874",
 ```
 `sudo systemctl restart cnode`
+
 [<img src="https://github.com/granada-pool/ADA/blob/main/l_64.png" width="30">](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
+
 
 ## Configuring CNODE script to use all available CPU cores (reduces missing slots)
 ```html
@@ -430,7 +449,9 @@ sudo nano cnode.sh
 #save changes and restart node (this avoids missing slots)
 ```
 >Having a BP on a bare metal dedicated server and turning off the TraceMempool property on the config.json file also helps to avoid this issue
+
 [<img src="https://github.com/granada-pool/ADA/blob/main/l_64.png" width="30">](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
+
 
 ## Configuring Env and Starting Node
 
@@ -455,7 +476,9 @@ sudo systemctl start cnode.service
 sudo systemctl status cnode.service
 ./gLiveView.sh #OR ./sLiveView.sh
 ```
+
 [<img src="https://github.com/granada-pool/ADA/blob/main/l_64.png" width="30">](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
+
 
 ## Editing topologyUpdater.sh For Relays
 
@@ -474,7 +497,9 @@ Press Y to save modified buffer
 Press Enter to keep file name
 
 `sudo systemctl restart cnode.service`
+
 [<img src="https://github.com/granada-pool/ADA/blob/main/l_64.png" width="30">](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
+
 
 ## Editing topology.json for Producer
 ```html
@@ -505,12 +530,16 @@ Press Y to save modified buffer
 Press Enter to keep file name
 
 `sudo systemctl restart cnode.service`
+
 [<img src="https://github.com/granada-pool/ADA/blob/main/l_64.png" width="30">](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
+
 
 ## Creating wallet/Registering pool
 
 `./cntools.sh`
+
 [<img src="https://github.com/granada-pool/ADA/blob/main/l_64.png" width="30">](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
+
 
 ##	Monitoring (Grafana)
 
@@ -569,7 +598,9 @@ sudo systemctl restart Prometheus
 sudo systemctl status prometheus
 sudo systemctl restart node_exporter.service
 ```
+
 [<img src="https://github.com/granada-pool/ADA/blob/main/l_64.png" width="30">](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
+
 
 ## Miscellaneous commands
 *Check for missing slots*
