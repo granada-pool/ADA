@@ -95,7 +95,7 @@ granada.staking.pool@gmail.com
 
 `Note: Remember to change all [fields in square brackets]`
 
-[|Go to content list|](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
+[<Go to content list>](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
 
 ## Creating a non-root user
 ```html
