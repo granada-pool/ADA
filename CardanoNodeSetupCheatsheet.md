@@ -2,7 +2,7 @@
 <snippet>
   <content><![CDATA[
   
-![Logo](https://github.com/granada-pool/ADA/blob/main/l_64.png) By GranADA_Staking_Pool [GRANA]
+<img src="https://github.com/granada-pool/ADA/blob/main/l.png" width="100" height="100"> By GranADA_Staking_Pool [GRANA]
 
 # Setup Cheatshet for Cardano nodes
 
@@ -95,7 +95,7 @@ granada.staking.pool@gmail.com
 
 `Note: Remember to change all [fields in square brackets]`
 
-[<Go to content list>](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
+[<img src="https://github.com/granada-pool/ADA/blob/main/l_64.png" width="30" height="30">](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
 
 ## Creating a non-root user
 ```html
