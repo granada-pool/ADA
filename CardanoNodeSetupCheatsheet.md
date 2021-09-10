@@ -26,49 +26,49 @@ granada.staking.pool@gmail.com
 
 ## Content
 
-[Resources](https://github.com/granada-pool/ADA/blob/main#resources)
+[Resources](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#resources)
 
-[First steps](https://github.com/granada-pool/ADA/blob/main#first-steps)
+[First steps](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#first-steps)
 
-[Creating a non-root user](https://github.com/granada-pool/ADA/blob/main#creating-a-non-root-user)
+[Creating a non-root user](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#creating-a-non-root-user)
 
-[Update Ubuntu](https://github.com/granada-pool/ADA/blob/main#update-ubuntu)
+[Update Ubuntu](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#update-ubuntu)
 
-[Disable Root Login/Set New SSH Port](https://github.com/granada-pool/ADA/blob/main#disable-root-loginset-new-ssh-port)
+[Disable Root Login/Set New SSH Port](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#disable-root-loginset-new-ssh-port)
 
-[Server backups (snapshot in private server)](https://github.com/granada-pool/ADA/blob/main#server-backups-snapshot-in-private-server)
+[Server backups (snapshot in private server)](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#server-backups-snapshot-in-private-server)
 
-[Creating firewall](https://github.com/granada-pool/ADA/blob/main#creating-firewall)
+[Creating firewall](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#creating-firewall)
 
-[Disable Wifi and Bluetooth (Hardware server)](https://github.com/granada-pool/ADA/blob/main#disable-wifi-and-bluetooth-hardware-server)
+[Disable Wifi and Bluetooth (Hardware server)](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#disable-wifi-and-bluetooth-hardware-server)
 
-[Disable sleep, hibernation and ping command](https://github.com/granada-pool/ADA/blob/main#disable-sleep-hibernation-and-ping-command)
+[Disable sleep, hibernation and ping command](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#disable-sleep-hibernation-and-ping-command)
 
-[Configure SWAP for RAM](https://github.com/granada-pool/ADA/blob/main#configure-swap-for-ram)
+[Configure SWAP for RAM](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#configure-swap-for-ram)
 
 [Security (Google 2FA & Fail2Ban)](https://github.com/granada-pool/ADA/blob/main#security-google-2fa--fail2ban)
 
-[Synchonisation (Chrony)](https://github.com/granada-pool/ADA/blob/main#synchonisation-chrony)
+[Synchonisation (Chrony)](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#synchonisation-chrony)
 
-[Installing Prereqs](https://github.com/granada-pool/ADA/blob/main#installing-prereqs)
+[Installing Prereqs](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#installing-prereqs)
 
-[Installing cardano-node and cardano-cli](https://github.com/granada-pool/ADA/blob/main#installing-cardano-node-and-cardano-cli)
+[Installing cardano-node and cardano-cli](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#installing-cardano-node-and-cardano-cli)
 
-[Get mainnet-alonzo-genesis.json file](https://github.com/granada-pool/ADA/blob/main#get-mainnet-alonzo-genesisjson-file)
+[Get mainnet-alonzo-genesis.json file](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#get-mainnet-alonzo-genesisjson-file)
 
-[Configuring CNODE script to use all available CPU cores (reduces missing slots)](https://github.com/granada-pool/ADA/blob/main#configuring-cnode-script-to-use-all-available-cpu-cores-reduces-missing-slots)
+[Configuring CNODE script to use all available CPU cores (reduces missing slots)](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#configuring-cnode-script-to-use-all-available-cpu-cores-reduces-missing-slots)
 
-[Configuring Env and Starting Node](https://github.com/granada-pool/ADA/blob/main#configuring-env-and-starting-node)
+[Configuring Env and Starting Node](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#configuring-env-and-starting-node)
 
-[Editing topologyUpdater.sh For Relays](https://github.com/granada-pool/ADA/blob/main#editing-topologyupdatersh-for-relays)
+[Editing topologyUpdater.sh For Relays](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#editing-topologyupdatersh-for-relays)
 
-[Editing topology.json for Producer](https://github.com/granada-pool/ADA/blob/main#editing-topologyjson-for-producer)
+[Editing topology.json for Producer](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#editing-topologyjson-for-producer)
 
-[Creating wallet/Registering pool](https://github.com/granada-pool/ADA/blob/main#creating-walletregistering-pool)
+[Creating wallet/Registering pool](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#creating-walletregistering-pool)
 
-[Monitoring (Grafana)](https://github.com/granada-pool/ADA/blob/main#monitoring-grafana)
+[Monitoring (Grafana)](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#monitoring-grafana)
 
-[Miscellaneous commands](https://github.com/granada-pool/ADA/blob/main#miscellaneous-commands)
+[Miscellaneous commands](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#miscellaneous-commands)
 
 ## Resources
 
