@@ -46,9 +46,9 @@ granada.staking.pool@gmail.com
 
 [Configure SWAP for RAM](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#configure-swap-for-ram)
 
-[Security (Google 2FA & Fail2Ban)](https://github.com/granada-pool/ADA/blob/main#security-google-2fa--fail2ban)
+[Security (Google 2FA & Fail2Ban)](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#security-google-2fa--fail2ban)
 
-[Synchonisation (Chrony)](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#synchonisation-chrony)
+[Synchonisation (Chrony)](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#synchronisation-chrony)
 
 [Installing Prereqs](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#installing-prereqs)
 
@@ -95,6 +95,7 @@ granada.staking.pool@gmail.com
 
 `Note: Remember to change all [fields in square brackets]`
 
+[|Go to content list|](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
 
 ## Creating a non-root user
 ```html
