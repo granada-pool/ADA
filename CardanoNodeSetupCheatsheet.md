@@ -20,6 +20,7 @@ SPO of GranADA_Staking_Pool [GRANA]
 granada.staking.pool@gmail.com
 
 
+
 >NOTE: Click on the small GranADA logo at the end of each section to navigate to the content list
 
 
@@ -84,6 +85,8 @@ granada.staking.pool@gmail.com
 [Configuring Grafana](https://www.youtube.com/watch?app=desktop&v=lcIWj1Xm3UM) [EDEN]
 
 [General setup guide](https://github.com/Chris-Graffagnino/Jormungandr-for-Newbs/blob/master/docs/jormungandr_node_setup_guide.md) [MASTR]
+
+[<img src="https://github.com/granada-pool/ADA/blob/main/l_64.png" width="30">](https://github.com/granada-pool/ADA/blob/main/CardanoNodeSetupCheatsheet.md#content)
 
 
 ## First steps
