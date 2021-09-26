@@ -11,7 +11,7 @@ We use ASUS Mini PCs PN40 with 16GB RAM and 256GB SSD.
 
 GranADA helps refugee families in countries with humanitarian crisis by monthly supporting to the World Food Programm
 
-https://sharethemeal.org/en/table.html
+[Read more about the WFP](https://sharethemeal.org/en/table.html)
 
 We also focus on educating and informing the Spanish-speaking community about blockchain and the Cardano ecosystem.
 
