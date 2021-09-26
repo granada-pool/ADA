@@ -5,13 +5,15 @@ A truly decentralized staking pool with a hybrid solution implementing a block p
 
 Hosted in Switzerland and Germany and operated by a cool vegan software engineer. 
 
-We use ASUS Mini PCs with 16GB RAM and 256GB SSD.
+We strive to sustainibly decentralize the Cardano ecosystem
 
-GranADA monthly helps refugee families in countries with humanitarian crisis by contributing to the World Food Programm
+We use ASUS Mini PCs PN40 with 16GB RAM and 256GB SSD.
+
+GranADA helps refugee families in countries with humanitarian crisis by monthly supporting to the World Food Programm
 
 https://sharethemeal.org/en/table.html
 
-We also focus on educating and informing the Spanish-speaking community about blockchain and the Cardano project.
+We also focus on educating and informing the Spanish-speaking community about blockchain and the Cardano ecosystem.
 
 Thank you for your trust and for joining the blockchain revolution!
 
@@ -24,3 +26,5 @@ Name: GranADA_Staking_Pool
 Ticker: [GRANA]
 
 0% fees!
+
+Website: [granadapool.com](https://granadapool.com)
