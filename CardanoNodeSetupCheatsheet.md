@@ -15,7 +15,7 @@ Best regards,
 
 Vito Melchionna
 
-SPO of GranADA_Staking_Pool [GRANA]
+SPO of [GranADA_Staking_Pool [GRANA]](https://granadapool.com) and active member of the [Climate Neutral Cardano Group](https://www.climateneutralcardano.org/)
 
 granada.staking.pool@gmail.com
 
