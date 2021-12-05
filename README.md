@@ -2,11 +2,11 @@
 Cardano (ADA) Staking Pool
 
 
-A truly decentralized staking pool operated by a cool vegan software engineer with a hybrid solution implementing a block producer and a main relay node on private servers in Zurich, Switzerland (powered with renewable energy) and a backup relay on a data center in Germany. This pool uses ASUS Mini PCs PN40 with 16GB RAM and 256GB SSD.
+A truly decentralized staking pool operated by a cool vegan software engineer with a hybrid solution implementing a block producer and a main relay node on private servers in Zurich, Switzerland (powered with renewable energy) and a backup relay on a data center in Germany. This pool uses ASUS Mini PCs PN40 with 16GB RAM and 256GB SSD, which consume as little as 6.4W at idle.
 
 We strive to sustainibly decentralize the Cardano ecosystem
 
-GranADA helps refugee families in countries with humanitarian crisis by monthly supporting to the [World Food Programm](https://sharethemeal.org/en/table.html).
+GranADA is an active member of the [Climate Neutral Cardano Group](https://www.climateneutralcardano.org/) and we donate 25% of our staking rewards to [Veritree](https://ito.veritree.com/) to contribute to the Cardano Forest by planting trees. We also help refugee families in countries with humanitarian crisis by monthly supporting to the [World Food Programm](https://sharethemeal.org/en/table.html).
 
 We also focus on educating and informing the Spanish-speaking community about blockchain and the Cardano ecosystem.
 
