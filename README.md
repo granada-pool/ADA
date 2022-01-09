@@ -8,7 +8,7 @@ We strive to sustainibly decentralize the Cardano ecosystem
 
 GranADA is an active member of the [Climate Neutral Cardano Group](https://www.climateneutralcardano.org/) and we donate 25% of our staking rewards to [Veritree](https://ito.veritree.com/) to contribute to the Cardano Forest by planting trees. We also help refugee families in countries with humanitarian crisis by monthly supporting to the [World Food Programm](https://sharethemeal.org/en/table.html).
 
-We also focus on educating and informing the Spanish-speaking community about blockchain and the Cardano ecosystem.
+We focus on educating and informing the Spanish-speaking community about blockchain and the Cardano ecosystem.
 
 Thank you for your trust and for delegating kindness with us!
 
