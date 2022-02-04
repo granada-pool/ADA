@@ -21,7 +21,7 @@
             "vat_id": ""
         },
         "about": {
-            "me": "I'm a young software engineer from Venezuela who firmly believes that we can use the power of blockchain and decentralization to change the world forever. I run GranADA as a SPO a we monthly contribute to Veritree and to the WFP to help refugee families in countries with humanitarian crisis.",
+            "me": "I'm a young vegan software engineer from Venezuela who firmly believes that we can use the power of blockchain and decentralization to change the world forever. I'm a SPO and an active member of the Carbon Neutral Cardano Group. Let's support sustainability together!",
             "server": "Hosted in Zurich, Switzerland | Internet: 1GB up/down | Powered with 100% renewable energy.",
             "company": ""
         }
@@ -30,7 +30,13 @@
         "0": "7a4c1ee9d663dd8d3b1bedf13155cc624c5dfa95f432c30d198cd3c6"
     },
     "when-satured-then-recommend": {
-        "0": "pool1zd9s448hzzdsk3g56en2sw99u9pfreewmx0lyayg0ywa2l6kvry"
+        "0": "11cad31f95526b86724c84b818228fc2500bca5ce9b2864a85b94058",
+        "1": "603749d1b47c79cdf3072c284abb9810dd98afe827d6ae2b92f115ed",
+        "2": "90dd0a6038d4c8de3c861e4c9a313f423af48ea0fb7823e2110a01b2",
+        "3": "72de14d78a359617a7dd0b33c5554ed4edbafd768ece87c4bf672ee0",
+        "4": "f66a36de855d53b9d5110bd46640f48dbab1c848c9e2f5c36d8c12dc",
+        "5": "f981975f99456e2275bed68576ba12cae91a9dce3ec599274908cdd7",
+        "6": "a2ccd8e93f5a518d4400790cb081673e79ed41e4bf1132f740f26a28"
     },
     "telegram-admin-handle": {
         "0": ""
