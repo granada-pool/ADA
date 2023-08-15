@@ -11,7 +11,7 @@
             "youtube_handle": "UCxKlCJ55rIgkLYTEj_bY5PA",
             "twitch_handle": "",
             "discord_handle": "Sm6FwdbvVm",
-            "github_handle": "granada-pool/ADA"
+            "github_handle": "granada-pool"
         },
         "company": {
             "name": "",
@@ -60,5 +60,6 @@
                 "key": ""
             }
         }
-    }
+    },
+    "validation": "a4e9f808fd5019a88c"
 }
