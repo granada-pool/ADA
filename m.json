@@ -1,8 +1,8 @@
 {
   "name": "GranADA Pool",
   "ticker": "GRANA",
-  "description": "A truly decentralized stake pool running on private servers powered with renewable energy. Hosted in Switzerland and operated by a software engineer. We monthly contribute to the WFP to help refugee families. Thank you for supporting sustainability!",
+  "description": "A Swiss stake pool hosted on private servers powered by renewable energy and operated by committed builders. We contribute to Cardano's growth and to meaningful sustainability programs. Your stake decentralizes Cardano while making real-world impact!",
   "homepage": "https://granadapool.com",
-  "nonce": "1733149476",
+  "nonce": "1751298587",
   "extended": "https://raw.githubusercontent.com/granada-pool/ADA/main/em.json"
 }
